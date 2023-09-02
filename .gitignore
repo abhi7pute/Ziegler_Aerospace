@@ -1,0 +1,27 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore logs and other generated files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore the build output for the frontend
+frontend/build/
+
+# Ignore environment variables
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore the IDE or text editor configuration
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore database backups and data files
+database/data/
+database/backups/

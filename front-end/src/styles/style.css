@@ -1,0 +1,109 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply a background color to the body */
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Navigation Styles */
+  .navbar {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Button Styles */
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form Styles */
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Add more styles based on your project's design and layout requirements */
+  
