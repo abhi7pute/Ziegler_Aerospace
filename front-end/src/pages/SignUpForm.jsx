@@ -1,4 +1,4 @@
-// src/components/SignUpForm.js
+
 import React, { useState } from 'react';
 
 function SignUpForm() {
@@ -14,7 +14,6 @@ function SignUpForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Send form data to the server for registration
     console.log('Form data submitted:', formData);
   };
 

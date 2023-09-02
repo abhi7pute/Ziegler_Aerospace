@@ -1,4 +1,4 @@
-// src/components/LogInForm.js
+
 import React, { useState } from 'react';
 
 function LogInForm() {
@@ -13,7 +13,7 @@ function LogInForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Send login credentials to the server for authentication
+  
     console.log('Login credentials submitted:', credentials);
   };
 

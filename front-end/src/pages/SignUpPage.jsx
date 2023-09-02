@@ -1,4 +1,4 @@
-// src/pages/SignUpPage.js
+
 import React from 'react';
 import SignUpForm from './SignUpForm';
 

@@ -1,4 +1,4 @@
-// src/pages/MessagingPage.js
+
 import React from 'react';
 import ChatInterface from '../components/ChatInterface';
 

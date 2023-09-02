@@ -23,10 +23,8 @@ function SellerDashboard() {
     setNewProduct({ ...newProduct, [name]: value });
   };
 
-  // Handle form submission to add a new product
   const handleAddProduct = () => {
-    // Send a POST request to add the new product to the backend
-    // Example fetch code:
+   
     // fetch('/api/seller/products', {
     //   method: 'POST',
     //   headers: {

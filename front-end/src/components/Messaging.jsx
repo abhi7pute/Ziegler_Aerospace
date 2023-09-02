@@ -1,4 +1,4 @@
-// frontend/src/components/Messaging.js
+
 
 import React, { useState } from 'react';
 
@@ -7,7 +7,7 @@ function Messaging() {
   const [newMessage, setNewMessage] = useState('');
 
   const handleMessageSend = () => {
-    // Handle sending messages to the server
+    
     setMessages([...messages, newMessage]);
     setNewMessage('');
   };

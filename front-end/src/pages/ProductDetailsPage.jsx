@@ -1,4 +1,4 @@
-// src/pages/ProductDetailsPage.js
+
 import React from 'react';
 import ProductInfo from '../components/ProductInfo';
 import AddToCartButton from '../components/AddToCartButton';

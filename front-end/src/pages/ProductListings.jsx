@@ -1,7 +1,5 @@
-// src/components/ProductListings.js
 import React from 'react';
 
-// Assuming you have product data as an array of objects
 const products = [
   {
     id: 1,

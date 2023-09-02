@@ -24,7 +24,7 @@ const productSchema = new mongoose.Schema({
     ref: 'User',
     required: true,
   },
-  // Add other product-related fields as needed
+
 });
 
 const Product = mongoose.model('Product', productSchema);

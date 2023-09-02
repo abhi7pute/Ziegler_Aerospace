@@ -20,7 +20,6 @@ const userSchema = new mongoose.Schema({
     enum: ['buyer', 'seller'],
     default: 'buyer',
   },
-  // Additional user-related fields can be added here
 });
 
 const User = mongoose.model('User', userSchema);

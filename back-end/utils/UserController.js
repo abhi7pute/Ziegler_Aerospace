@@ -1,6 +1,5 @@
 const { validateEmail, validatePassword } = require('./validationUtils');
 
-// Example usage in a controller or service
 const email = 'user@example.com';
 const password = 'SecurePass123';
 

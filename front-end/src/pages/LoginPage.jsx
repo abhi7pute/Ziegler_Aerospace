@@ -1,4 +1,4 @@
-// src/pages/LoginPage.js
+
 import React from 'react';
 import LogInForm from './LogInForm';
 

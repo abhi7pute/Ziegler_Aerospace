@@ -1,15 +1,14 @@
-// frontend/src/components/CartSummary.js
 
 import React from 'react';
 
 const CartSummary = ({ cartItems }) => {
-  // Calculate the total price of items in the cart
+
   const calculateTotalPrice = () => {
     let total = 0;
     for (const item of cartItems) {
       total += item.price * item.quantity;
     }
-    return total.toFixed(2); // Format to 2 decimal places
+    return total.toFixed(2);
   };
 
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CustomerTestimonials = () => {
-  // Sample testimonials data (you can replace this with actual data from your database)
+  
   const testimonials = [
     {
       id: 1,

@@ -1,4 +1,4 @@
-// src/pages/BuyerDashboardPage.js
+
 import React from 'react';
 import ProductListings from '../components/ProductListing';
 

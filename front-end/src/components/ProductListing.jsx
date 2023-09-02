@@ -1,4 +1,3 @@
-// frontend/src/components/ProductListing.js
 
 import React from 'react';
 
@@ -10,7 +9,6 @@ function ProductListing({ products }) {
           <h2>{product.name}</h2>
           <p>Price: ${product.price}</p>
           <p>Location: {product.location}</p>
-          {/* Add more product details here */}
           <button>Add to Cart</button>
         </div>
       ))}

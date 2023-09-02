@@ -1,6 +1,6 @@
-// authenticationMiddleware.js
+
 const jwt = require('jsonwebtoken');
-const config = require('../config'); // Your JWT secret and configuration
+const config = require('../config');
 
 function authenticateToken(req, res, next) {
   const token = req.headers['authorization'];

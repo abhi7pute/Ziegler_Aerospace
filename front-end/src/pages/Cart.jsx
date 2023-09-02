@@ -5,11 +5,11 @@ function Cart() {
   const [cartItems, setCartItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
 
-  // Fetch cart items from the server on component mount
+  
   useEffect(() => {
     async function fetchCartItems() {
       try {
-        const response = await axios.get('/api/cart'); // Replace with your actual API endpoint
+        const response = await axios.get('/api/cart'); 
         const { items, total } = response.data;
         setCartItems(items);
         setTotalPrice(total);
@@ -21,11 +21,11 @@ function Cart() {
     fetchCartItems();
   }, []);
 
-  // Function to remove an item from the cart
+  
   const removeItemFromCart = async (itemId) => {
     try {
-      await axios.delete(`/api/cart/${itemId}`); // Replace with your actual API endpoint
-      // Update cart items after deletion
+      await axios.delete(`/api/cart/${itemId}`); 
+
       setCartItems((prevItems) => prevItems.filter((item) => item._id !== itemId));
     } catch (error) {
       console.error('Error removing item from cart:', error);

@@ -9,8 +9,7 @@ const AddToCartButton = ({ product, onAddToCart }) => {
   };
 
   const handleAddToCart = () => {
-    // Here, you can implement the logic to add the product to the cart
-    // For example, you might use a Redux store or state management library.
+    
     onAddToCart(product, quantity);
   };
 

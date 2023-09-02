@@ -11,5 +11,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to measure performance in your app, uncomment the following line:
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CompanyServices = () => {
-  // Sample data for company services and testimonials
+ 
   const services = [
     {
       title: 'Service 1',
@@ -11,7 +11,7 @@ const CompanyServices = () => {
       title: 'Service 2',
       description: 'Description of Service 2.',
     },
-    // Add more services as needed
+  
   ];
 
   const testimonials = [
@@ -23,7 +23,7 @@ const CompanyServices = () => {
       author: 'Jane Smith',
       text: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
-    // Add more testimonials as needed
+   
   ];
 
   return (
